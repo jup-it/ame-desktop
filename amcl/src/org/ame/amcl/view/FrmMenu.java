@@ -32,6 +32,7 @@ public class FrmMenu extends javax.swing.JFrame {
         mArchivo = new javax.swing.JMenu();
         miSalir = new javax.swing.JMenuItem();
         mEquipo = new javax.swing.JMenu();
+        mTorneo = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
@@ -53,6 +54,9 @@ public class FrmMenu extends javax.swing.JFrame {
 
         mEquipo.setText("Equipo");
         jMenuBar1.add(mEquipo);
+
+        mTorneo.setText("Torneo");
+        jMenuBar1.add(mTorneo);
 
         setJMenuBar(jMenuBar1);
 
@@ -112,6 +116,7 @@ public class FrmMenu extends javax.swing.JFrame {
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu mArchivo;
     private javax.swing.JMenu mEquipo;
+    private javax.swing.JMenu mTorneo;
     private javax.swing.JMenuItem miSalir;
     // End of variables declaration//GEN-END:variables
 }

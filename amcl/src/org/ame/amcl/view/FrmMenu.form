@@ -27,6 +27,11 @@
             <Property name="text" type="java.lang.String" value="Equipo"/>
           </Properties>
         </Menu>
+        <Menu class="javax.swing.JMenu" name="mTorneo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Torneo"/>
+          </Properties>
+        </Menu>
       </SubComponents>
     </Menu>
   </NonVisualComponents>
